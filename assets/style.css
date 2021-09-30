@@ -1,0 +1,242 @@
+.header {
+  /* border-bottom: 10px solid black;  */
+  /* padding: 20px; */
+  font-family: 'Trebuchet MS';
+  background-image: url("./background\ image2.jpg");
+  /* background-color:black; */
+  color:whitesmoke;
+  image-resolution: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  /* Top left name header text */
+/* .bottom-center { */
+  /* position: absolute;
+  top: 20%;
+  left: 50%; */
+  /* font-size: 50px; */
+  /* transform: translate(-50%, -50%); */
+  /* display: inline-block; */
+  /* }  */
+
+  .header h1 {
+  /* position: absolute;
+  top: 10%;
+  left: 50%; */
+  font-size: 48px;
+    /* transform: translate(-50%, -50%); */
+    display: inline-block;
+  } 
+
+  .header nav {
+     font-size: 46px;
+      padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+  }
+
+  /*Navigation list specification*/
+.header nav ul {
+  list-style-type: none;
+  background: black;
+  
+}
+
+.header nav ul li a {color: whitesmoke;
+}
+
+/*Navigation list items display formatting*/
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  
+}
+
+.subHeader {
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 150px; 
+}
+
+.contactFont {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 50px;
+}
+
+#IntroImage {
+  width: 10%;
+  height: 10%;
+}
+#CoolSub {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-image: url("./background\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+    padding-top: 15px;
+    
+  }
+
+ #subTitle {
+    color: whitesmoke;
+    float: right;
+    border: 5px solid white;
+  }
+
+    /* .subHeader {
+    font-size: 32px;
+    border-width: 100px;
+    padding: 30px;
+    margin: 20px;
+    flex: 1;
+    flex-shrink: 2;
+    flex-basis: 100px;
+    border-radius: 25%;
+    display: inline-block;
+    text-align: center;
+    color: black;
+      } */
+
+/* p {
+  border:  1px solid black; 
+  flex: 3
+  
+}  */
+
+.mainFormat {
+    background-color: grey;
+    font-size: 24px;
+    border-radius: 0%;
+}
+
+
+.Left-Aside {
+  margin-left: 2px;
+  padding: 10px;
+  clear: both;
+  width: 20%;
+  height: 100%;
+  font-size: 92px;
+  font-family: 'Gill Sans';
+  text-align: right;
+  border-right: 5px solid  black;
+  
+}
+
+.Right-Aside-AboutMe {
+  font-size: 30px;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gill Sans';
+  text-align: justify;
+  display: inline-block;
+}
+
+.Right-Aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  width: 70%;
+  height: 100%;
+  font-family: 'Gill Sans';
+  text-align: justify;
+  display: inline-block;
+}
+
+.Aside-Format {
+   display: flex;
+   flex-direction: row;
+}
+
+#refactor {
+  width: 500px;
+}
+
+.projectContainer {
+  display: flex;
+  margin-right: 5%;
+}
+
+.projectCard {
+  border: 5px solid black;
+  height: 300px;
+  width: 600px;
+  padding: 2%;
+  margin: 1%;
+}
+
+.projectCard1 {
+  border: 10px solid black;
+  height: 450px;
+  width: 1000px;
+  padding: 2%;
+  margin: 1%;
+  /* background-image: url("./Code\ Refactor.png");
+    background-size: cover;
+    background-position: center; */
+  
+}
+#refactor {
+  width: 90%;
+  height: 90%;
+}
+
+#password, #planner, #project1 {
+  width: 95%;
+  height: 85%;
+}
+#pc1 {
+  color: black;
+  background-color: cornsilk;
+  /* margin-top: 40%; */
+  border: 5px solid black;
+width: 15%;
+}
+
+#pc2, #pc3, #pc4 {
+  color: black;
+  background-color: cornsilk;
+  /* margin-top: 40%; */
+  border: 5px solid black;
+width: 50%;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+@media screen and (max-width: 400px){
+  .center {
+    font-size: 28px;
+    top: 2%;
+  }
+  .bottom-center {
+    font-size: 28px;
+    top: 4%
+  }
+  #IntroImage, #refactor, #password, #planner {
+    width: 20%;
+    height: 20%;
+
+  }
+  .subHeader {
+    border-width: 50px;
+  }
+}
